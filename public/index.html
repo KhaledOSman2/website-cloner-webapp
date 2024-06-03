@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Cloner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Website Cloner</h1>
+    <form id="cloneForm">
+        <label for="websiteUrl">Website URL:</label>
+        <input type="text" id="websiteUrl" name="websiteUrl" required>
+        <br>
+        <label for="directoryName">Directory Name:</label>
+        <input type="text" id="directoryName" name="directoryName" required>
+        <br>
+        <button type="submit">Start Cloning</button>
+    </form>
+    <button id="downloadButton">Download Files</button>
+    <div id="log"></div>
+    <div class="progress-bar">
+        <div class="progress-bar-inner" id="progressBar"></div>
+    </div>
+    <div id="directoryTree"></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

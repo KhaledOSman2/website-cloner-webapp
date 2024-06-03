@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+}
+
+button {
+    padding: 10px 20px;
+    background: #28a745;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+#log {
+    width: 100%;
+    max-width: 600px;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    overflow-y: auto;
+    max-height: 300px;
+    font-family: monospace;
+    white-space: pre;
+}
+
+.progress-bar {
+    background: #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.progress-bar-inner {
+    height: 20px;
+    width: 0;
+    background: #28a745;
+}
+
+#downloadButton {
+    display: none;
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+#downloadButton:hover {
+    background: #0056b3;
+}
+
+#directoryTree {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    overflow-y: auto;
+    max-height: 300px;
+    font-family: monospace;
+    white-space: pre;
+    border: 1px solid #ccc;
+}
