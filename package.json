@@ -1,0 +1,24 @@
+{
+  "name": "website-cloner-webapp",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "filesize": "^10.1.2",
+    "http": "^0.0.1-security",
+    "klaw": "^4.1.0",
+    "socket.io": "^4.0.1",
+    "website-scraper": "^5.1.0",
+    "website-scraper-puppeteer": "^1.1.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
